@@ -1,0 +1,295 @@
+/* Root selector */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+/* root selectorend */
+html{
+    height: 100%;
+    
+  
+}
+body{
+   
+    width:100%;
+    height: 100%;
+
+} 
+/* Navigation and header */
+.transparent_nav{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-image:url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+ 
+}
+
+.nav_bar{
+    position: sticky;
+    position: fixed;
+    justify-content: start;
+    padding-left: 20%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    height: 60px;
+    background-color:rgba(255,255,255,0.78);
+    
+}
+  
+/* Navbar links */
+.nav_bar a{
+    float: right;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 19px;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 100%;
+}
+.arklogo{
+    max-height: 62px;
+}
+.billboard{
+    max-height: 70%;
+}
+#nav_list{
+    margin-left: 40%;
+    justify-items: right;
+    max-width: 95%;
+    position: fixed;
+    margin-top: 0px;
+}
+#nav_list li{
+    display: inline-block;
+    inline-size: inherit;
+
+}
+.verticalGap20{
+    height: 20px;
+}
+.cta{
+    
+    display: inline-block;
+    background-color:rgba(255,255,255,0.78);
+    margin-top: 430px;
+    padding-top: 20px;
+    height: 60px;
+    justify-items: right;
+    width: 100%;
+} 
+
+.cta :hover{
+   height:20px;
+   width:100%;
+    background-color: aqua;
+
+}
+
+.cta #cta_link { 
+    justify-items: right;
+    margin-left:40%;
+    width: 200px; 
+    height: 5px;
+    background-color:rgb(13, 177, 241);
+    border:5px solid rgb(13, 177, 241);
+    color: white;
+    text-decoration: none;
+} 
+.cta #cta_text{
+    margin-left: 150px;
+    margin-right: 30px;
+}
+
+.cta #cta_header{
+    display: inline;
+} 
+/* Navigation and header end */
+
+/* Services start*/
+.companyslogan p{
+    margin-top: 70px;
+    font-size: 20px;
+    color:grey;
+
+ 
+    justify-content: center;
+    text-align: center;
+}
+.services_wrapper{
+    list-style: none;
+}
+.services_wrapper ul li{
+padding: 50px;
+}
+.services_wrapper ul li h3{
+    margin-bottom: 20px;
+}
+/* Services end */
+
+/* recent work start */
+.recent_work{
+    height: 500px;
+}
+.column img{
+    float: left;
+    width: 20%;
+    height: 500px;
+    
+    
+  }
+  #w1:hover{
+      border: 2px solid #000;
+  }
+  #w2:hover{
+      border: 2px solid #000;
+  }
+  #w3:hover{
+      border: 2px solid #000;
+  }
+  #w4:hover{
+      border: 2px solid #000;
+  }
+  #w5:hover{
+      border: 2px solid #000;
+  }
+  /* recent work ends */
+  /* testimonials Start */
+.testimonials wrapper{
+    
+    background: #f8f8f8;
+
+    text-align: center;
+    color:#777;
+    
+}
+.testimonials wrapper h2{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+  
+  
+ .box {
+    float: left;
+    width: 33.3%;
+    padding: 60px;
+    text-align:center;
+  list-style-type: none;
+  color:#777;
+   
+  }
+ 
+  .round-img{
+      border-radius: 50%;
+      margin-bottom: 20px;
+  }
+  .heading-3{
+      padding: 20px;
+  }
+
+  .bold-title{
+      font-size: large;
+
+  }
+  /* Testimonials end */
+  /* brand logos */
+  .sixbrandlogos{
+      padding-top:12px;
+      padding-left:12px ;
+      background-color: #f4f4f4;
+      display: inline-block;
+
+  }
+  .client-logo{
+      margin:1px 11px 20px 15.68px;
+  }
+  /* brand logos end */
+
+
+ /* footer starts */
+  .footer_widget{
+      height: 200px;
+  background-color: rgb(36, 34, 34);
+  
+  }
+  .box-2{
+    float: left;
+    width: 25%;
+    text-align:center;
+  list-style-type: none;
+  color:#fff;
+  text-decoration: none;
+  background-color: rgb(36, 34, 34);
+
+  }
+  .box-2 #locations{
+      padding-top: 10px;
+      margin: 20px;
+  }
+  .box-2 #support{
+    padding-top: 10px;
+      margin: 20px;
+  }
+  .box-2 #company{
+    padding-top: 10px;   
+    margin: 20px;
+  }
+  .box-2 #ark{
+    padding-top: 10px;
+      margin:20px;
+  }
+  .box-2 #comp_list li{
+      text-decoration: none;
+      list-style: none;
+  }
+  .box-2 #comp_list li a{
+      text-decoration: none;
+      color: white;
+  }
+  .box-2 #sup_list li{
+      list-style: none;
+     
+  }
+  .box-2 #sup_list li a{
+      text-decoration: none;
+      color: white;
+  }
+ .box-2 img{
+     margin-top:20px;
+ }
+.box-2 #sup_list #sup_item_3{
+    padding-bottom:31px;
+}
+.box-2 #comp_list #comp_item_4{
+    padding-bottom: 14px;
+}
+.box-2 #ark-para{
+    padding-bottom: 31px;
+}
+.clear{
+    clear: both;
+}
+.rights{
+    
+    text-align:center;
+    color: #fff;
+    background-color: rgb(36, 34, 34);
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom:20px;
+}
+/* footer ends */
